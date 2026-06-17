@@ -1,0 +1,9 @@
+{
+  "name": "migel-desktop-connector",
+  "version": "0.2.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tools/test/*.test.mjs desktop-connector/test/*.test.mjs"
+  }
+}
