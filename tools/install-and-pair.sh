@@ -14,10 +14,10 @@ REQUIRE_NODE_MAJOR="22"
 usage() {
   cat <<'EOF'
 用法：
-  curl -fsSL https://raw.githubusercontent.com/<org>/migel-desktop/main/tools/install-and-pair.sh | bash -s -- <repo_url> [hermes|openclaw] [pair_code] [desktop_claim]
+  curl -fsSL https://raw.githubusercontent.com/gewuart/migel-desktop-connector/main/tools/install-and-pair.sh | bash -s -- <repo_url> [hermes|openclaw] [pair_code] [desktop_claim]
 
 示例：
-  curl -fsSL https://raw.githubusercontent.com/<org>/migel-desktop/main/tools/install-and-pair.sh | bash -s -- https://github.com/<org>/migel-desktop.git hermes
+  curl -fsSL https://raw.githubusercontent.com/gewuart/migel-desktop-connector/main/tools/install-and-pair.sh | bash -s -- https://github.com/gewuart/migel-desktop-connector.git hermes
 
 环境变量：
   MIGEL_REPO_URL         Migel 桌面仓库地址
